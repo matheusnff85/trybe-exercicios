@@ -9,7 +9,9 @@ Este repositório contém exercícios dos módulos de:
 
 Módulos esses que são dividos em blocos sendo:
 
+----------------------------------------------
 - [ ]1- Fundamentos do Desenvolvimento Web
+----------------------------------------------
 
 - [X]Bloco 01: Unix & Bash
 - [ ]Bloco 02: Git, GitHub e Internet
@@ -21,8 +23,9 @@ Módulos esses que são dividos em blocos sendo:
 - [ ]Bloco 08: Higher Order Functions do JavaScript ES6
 - [ ]Bloco 09: JavaScript e Testes Assíncronos
 
-
+----------------------------------------------
 - [ ]2- Desenvolvimento Front-End
+----------------------------------------------
 
 - [ ]Bloco 10: Introdução à React
 - [ ]Bloco 11: Componentes com Estado, Eventos e Formulários com React
@@ -34,7 +37,9 @@ Módulos esses que são dividos em blocos sendo:
 - [ ]Bloco 17: Context API e React Hooks
 - [ ]Bloco 18: Projeto App de Receitas
 
+----------------------------------------------
 - [ ]3- Desenvolvimento Back-End
+----------------------------------------------
 
 - [ ]Bloco 19: Docker: Utilizando Containers
 - [ ]Bloco 20: Introdução à SQL
@@ -51,7 +56,9 @@ Módulos esses que são dividos em blocos sendo:
 - [ ]Bloco 31: MasterClass - VPS, CI/CD
 - [ ]Bloco 32: Projeto - App de Delivery
 
+----------------------------------------------
 - [ ]4- Ciência da Computação
+----------------------------------------------
 
 - [ ]Bloco 33: Introdução à Python
 - [ ]Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
