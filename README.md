@@ -61,3 +61,4 @@ Módulos esses que são dividos em blocos sendo:
 - [ ]Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
 
 
+# trybe-exercicios
