@@ -1,0 +1,30 @@
+h1 {
+  font-size: 65px; color: orange;
+}
+ul {
+  background-color: blue;
+}
+.paragrafo-lista-ul {
+  background-color: gold;
+}
+h1 {
+  font-family: sans-serif;
+}
+body {
+  font-size: 16px;
+}
+p {
+  font-weight: 600; font-size: 3em;
+}
+li {
+  text-align: center; text-decoration: underline; font-style: italic; line-height: 30px;
+}
+#Am {
+  background-color: yellow;
+}
+#Vm {
+  background-color: red;
+}
+#Mr {
+  background-color: brown;
+}
