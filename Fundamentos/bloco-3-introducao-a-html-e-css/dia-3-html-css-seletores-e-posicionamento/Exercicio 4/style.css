@@ -1,0 +1,58 @@
+ol.frases li {
+  background-color: yellow;
+}
+
+ol.frases li:nth-child(even) {
+  color: green;
+}
+
+ol.frases li:nth-child(odd) {
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4 {
+  color: red;
+}
+
+h1 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+ul.linguagens li:nth-child(-n+3){
+  color: blue;
+}
+
+.java {
+  background-color: pink;
+}
+
+a:hover[href="https://app.betrybe.com/"] {
+  color: green;
+  font-weight: bold;
+}
+
+a:hover[href="https://devdocs.io/"]{
+  font-weight: bold;
+  color: yellow;
+}
+a:hover[href="https://developer.mozilla.org/pt-BR/"]{
+  font-weight: bold;
+  color: black;
+}
+a:hover[href="https://www.w3schools.com/"]{
+  font-weight: bold;
+  color: green
+}
+a:hover[href="https://pt.stackoverflow.com/"]{
+  font-weight: bold;
+  color: orange;
+}
