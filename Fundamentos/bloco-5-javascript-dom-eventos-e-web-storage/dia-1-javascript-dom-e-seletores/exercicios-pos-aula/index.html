@@ -42,9 +42,35 @@
       </section>
     </main>
     <script>
-      function mudaTexto(param1) {
-        document.getElementById
+      function changeText(param1) {
+        document.getElementsByTagName("p")[0].innerText = param1;
       }
+      changeText("Me vejo conquistando minhas metas")
+
+      function changeColor(external, internal) {
+        document.getElementsByClassName("main-content")[0].style.background = external;
+        document.getElementsByClassName("center-content")[0].style.background = internal;
+      }
+      changeColor("rgb(76,164,109)", "white")
+
+      function correctTitle(newTitle) {
+        document.getElementsByClassName("title")[0].innerText = newTitle;
+      }
+      correctTitle("Exercício 5.1 - JavaScript")
+
+      function upperCase() {
+        let paragraph = document.getElementsByTagName("p")[0];
+        paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+      }
+      upperCase();
+
+      function consoleTags() {
+        let param1 = document.getElementsByTagName("p")
+        for (index in param1) {
+          console.log(param1[index].innerHTML)
+        }
+      }
+      consoleTags();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
