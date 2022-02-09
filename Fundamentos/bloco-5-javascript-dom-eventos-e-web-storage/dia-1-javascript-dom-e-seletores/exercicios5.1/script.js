@@ -8,3 +8,4 @@ document.querySelectorAll("section h3")[2].style.backgroundColor = "black";
 document.querySelectorAll("section h3")[3].style.backgroundColor = "black";
 
 document.getElementById("footer-container").style.backgroundColor = "#006400";
+
