@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: green;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let body = document.querySelector('body');
+      function createElement(type, classe) {
+        let newElement = document.createElement(type);
+        newElement.className = classe;
+        return newElement;
+      }
+      function addElement(parent, child) {
+        parent.appendChild(child);
+      }
+      addElement(body, createElement('h1', 'title'));
+      document.querySelector('.title').innerText = "Exercício 5.2 - JavaScript DOM";
+
+      addElement(body, createElement('main', 'main-content'));
+      let main = document.querySelector('.main-content');
+      addElement(main, createElement('section', 'center-content'));
+      let section = document.querySelector('.center-content');
+      addElement(section, createElement('p', 'paragraph'));
+      document.querySelector('.paragraph').innerText = "Olá eu sou um estudante da trybe!";
+      addElement(main, createElement('section', 'left-content'));
+      addElement(main, createElement('section', 'right-content'));
+      let leftContent = document.querySelector('.left-content');
+      addElement(leftContent, createElement('img', 'img1 small-image'));
+      let img = document.querySelector('.img1');
+      img.src = 'https://picsum.photos/200';
+      let rightContent = document.querySelector('.right-content');
+      addElement(rightContent, createElement('ul', 'list'));
+      
+      let list = document.querySelector('.list');
+      let items = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for (let index in items) {
+        let liItem = createElement('li', 'li-Item');
+        liItem.innerText = items[index]
+        list.appendChild(liItem);
+      }
+      for (let index = 0; index <= 2; index +=1) {
+        addElement(main, createElement('h3', 'description'))
+      }
+      document.querySelector('.main-content').removeChild(leftContent);
+      document.querySelector('.list').lastChild.remove();
+      document.querySelector('.list').lastChild.remove();
+    </script>
+  </body>
+</html>
