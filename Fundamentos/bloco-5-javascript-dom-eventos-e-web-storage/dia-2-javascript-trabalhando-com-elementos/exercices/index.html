@@ -72,9 +72,12 @@
       addElement(body, createElement('main', 'main-content'));
       let main = document.querySelector('.main-content');
       addElement(main, createElement('section', 'center-content'));
-      let section = document.querySelector('.center-content')
+      let section = document.querySelector('.center-content');
       addElement(section, createElement('p', 'paragraph'));
-      document.querySelector('.paragraph').innerText = "Olá eu sou um estudante da trybe!"
+      document.querySelector('.paragraph').innerText = "Olá eu sou um estudante da trybe!";
+      addElement(main, createElement('section', 'left-content'));
+      addElement(main, createElement('section', 'right-content'));
+      
     </script>
   </body>
 </html>
