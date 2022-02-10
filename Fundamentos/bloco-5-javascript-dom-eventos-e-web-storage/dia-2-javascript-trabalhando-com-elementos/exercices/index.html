@@ -57,7 +57,7 @@
   </head>
   <body>
     <script>
-      let body = document.querySelector('body')
+      let body = document.querySelector('body');
       function createElement(type, classe) {
         let newElement = document.createElement(type);
         newElement.className = classe;
@@ -66,11 +66,15 @@
       function addElement(parent, child) {
         parent.appendChild(child);
       }
-      addElement(body, createElement('h1', 'main-title'))
-      document.querySelector('.main-title').innerText = "Exercício 5.2 - JavaScript DOM"
+      addElement(body, createElement('h1', 'main-title'));
+      document.querySelector('.main-title').innerText = "Exercício 5.2 - JavaScript DOM";
 
-      addElement(body, createElement('main', 'main-content'))
-      
+      addElement(body, createElement('main', 'main-content'));
+      let main = document.querySelector('.main-content');
+      addElement(main, createElement('section', 'center-content'));
+      let section = document.querySelector('.center-content')
+      addElement(section, createElement('p', 'paragraph'));
+      document.querySelector('.paragraph').innerText = "Olá eu sou um estudante da trybe!"
     </script>
   </body>
 </html>
