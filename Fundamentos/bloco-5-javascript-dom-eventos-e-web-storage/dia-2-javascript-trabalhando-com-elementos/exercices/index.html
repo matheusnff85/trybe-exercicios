@@ -77,7 +77,10 @@
       document.querySelector('.paragraph').innerText = "Olá eu sou um estudante da trybe!";
       addElement(main, createElement('section', 'left-content'));
       addElement(main, createElement('section', 'right-content'));
-      
+      let leftContent = document.querySelector('.left-content');
+      addElement(leftContent, createElement('img', 'img1 small-image'));
+      let img = document.querySelector('.img1');
+      img.src = 'https://picsum.photos/200'
     </script>
   </body>
 </html>
