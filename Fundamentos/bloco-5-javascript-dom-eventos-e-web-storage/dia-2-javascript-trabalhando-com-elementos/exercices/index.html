@@ -19,7 +19,7 @@
       }
 
       .main-content .center-content {
-        background-color: red;
+        background-color: green;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -47,7 +47,7 @@
         background-color: blue;
         width: 60%;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: auto;
       }
 
       .main-content .description {
@@ -66,8 +66,8 @@
       function addElement(parent, child) {
         parent.appendChild(child);
       }
-      addElement(body, createElement('h1', 'main-title'));
-      document.querySelector('.main-title').innerText = "Exercício 5.2 - JavaScript DOM";
+      addElement(body, createElement('h1', 'title'));
+      document.querySelector('.title').innerText = "Exercício 5.2 - JavaScript DOM";
 
       addElement(body, createElement('main', 'main-content'));
       let main = document.querySelector('.main-content');
@@ -80,7 +80,23 @@
       let leftContent = document.querySelector('.left-content');
       addElement(leftContent, createElement('img', 'img1 small-image'));
       let img = document.querySelector('.img1');
-      img.src = 'https://picsum.photos/200'
+      img.src = 'https://picsum.photos/200';
+      let rightContent = document.querySelector('.right-content');
+      addElement(rightContent, createElement('ul', 'list'));
+      
+      let list = document.querySelector('.list');
+      let items = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for (let index in items) {
+        let liItem = createElement('li', 'li-Item');
+        liItem.innerText = items[index]
+        list.appendChild(liItem);
+      }
+      for (let index = 0; index <= 2; index +=1) {
+        addElement(main, createElement('h3', 'description'))
+      }
+      document.querySelector('.main-content').removeChild(leftContent);
+      document.querySelector('.list').lastChild.remove();
+      document.querySelector('.list').lastChild.remove();
     </script>
   </body>
 </html>
