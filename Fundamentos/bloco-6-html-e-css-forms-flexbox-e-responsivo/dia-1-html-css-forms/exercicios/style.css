@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 50%;
+  background-color: rgb(226, 219, 219);
+  margin: 30px auto;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(114, 112, 112);
+  border-radius: 2px;
+}
+
+main {
+  width: 50%;
+  margin: 30px auto;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+main div {
+  margin-bottom: 10px;
+}
+
+.destiny input {
+  margin-left: 13px;
+  margin-right: 2px;
+}
+
+#text-area {
+  width: 30%;
+  margin-top: 10px;
+  resize: none;
+}
+
+#best-date {
+  margin-left: 15px;
+}
+
+#checkbox1, #checkbox2 {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  width: 50%;
+  /* margin: 30px auto; */
+  padding: 10px;
+  border-radius: 2px;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 18px;
+}

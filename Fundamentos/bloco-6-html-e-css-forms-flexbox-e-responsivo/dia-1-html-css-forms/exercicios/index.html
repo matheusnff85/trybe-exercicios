@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="/exercicios/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="title">Trybe Trip</h1>
+  </header>
+  <main>
+    <form action="" method="get" class="formulario">
+      <div class="full-name">
+        <label for="name">Nome: </label>
+        <input type="text" minlength="10" maxlength="40" id="name">
+      </div>
+      <div class="email">
+        <label for="user-email">Email: </label>
+        <input type="email" minlength="10" maxlength="50" id="user-email">
+      </div>
+      <div class="destiny">
+        <label for="destiny-location"></label>
+        <input type="radio" name="destiny-location" id="destiny-location1">Cidade
+        <input type="radio" name="destiny-location" id="destiny-location2">Campo
+        <input type="radio" name="destiny-location" id="destiny-location3">Praia
+        <input type="radio" name="destiny-location" id="destiny-location4">Montanhas
+      </div>
+      <div class="user-text">
+        <label for="text">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+        <br>
+        <textarea name="text" id="text-area" cols="30" rows="10" maxlength="500"></textarea>
+      </div>
+      <div class="date">
+        <label for="best-date">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" name="best-date" id="best-date">
+      </div>
+      <div class="requirements">
+        <label for="requirements-checkboxes"></label>
+        Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? <input type="checkbox" name="requirements-checkboxes" id="checkbox1"> 
+        <br>
+        Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. <input type="checkbox" name="requirements-checkboxes" id="checkbox2" required>
+      </div>
+      <section>
+        <div class="buttons">
+          <button id="send-button" type="submit">Enviar</button>
+          <button id="erase-button" type="reset">Apagar</button>
+        </div>
+      </section>
+    </form>
+  </main>
+  <script src="/exercicios/script.js"></script>
+</body>
+</html>
