@@ -42,7 +42,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [X] 5-5: _[Projeto - Arte com Pixels](https://matheusnff85.github.io/pixels-art/)_
-- [X] 5-6: _[Projeto - Lista de tarefas](https://matheusnff85.github.io/todo-list/g)_
+- [X] 5-6: _[Projeto - Lista de tarefas](https://matheusnff85.github.io/todo-list/)_
 - [ ] 5-7: _[Projeto bônus - Meme Generator]()_
 - [ ] 5-7: _[Projeto bônus - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto bônus - Carta Misteriosa]()_
