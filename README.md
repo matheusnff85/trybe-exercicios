@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-020-b-project-lessons-learned/pull/92)_
+- [X] 3-5: _[Projeto - HTML & CSS](https://matheusnff85.github.io/lessions-learned/)_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -42,8 +42,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [X] 5-5: _[Projeto - Meme Generator]()_
-- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-020-b-project-pixels-art/pull/128)_
-- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-020-b-project-todo-list/pull/83)_
+- [X] 5-6: _[Projeto - Arte com Pixels](https://matheusnff85.github.io/pixels-art/)_
+- [X] 5-7: _[Projeto - Lista de tarefas](https://matheusnff85.github.io/todo-list/)_
 - [X] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [X] 5-7: _[Projeto - Carta Misteriosa]()_
 
@@ -53,8 +53,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [X] 6-5: _CSS Responsivo - Mobile First_
+- [X] 6-6: _[Projeto - Trybewarts](https://matheusnff85.github.io/trybewarts/)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
