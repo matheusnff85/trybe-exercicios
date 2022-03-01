@@ -44,7 +44,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-5: _[Projeto - Arte com Pixels](https://matheusnff85.github.io/pixels-art/)_
 - [X] 5-6: _[Projeto - Lista de tarefas](https://matheusnff85.github.io/todo-list/)_
 - [ ] 5-7: _[Projeto bônus - Meme Generator]()_
-- [ ] 5-7: _[Projeto bônus - Adivinhe a Cor]()_
+- [X] 5-7: _[Projeto bônus - Adivinhe a Cor](https://matheusnff85.github.io/color-guess/)_
 - [ ] 5-7: _[Projeto bônus - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
