@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(112, 137, 221);
+}
+
+h1 {
+  font-family: sans-serif;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+main {
+  width: 80%;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.container {
+  width: 90%;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-bottom: 30px;
+}
+
+.Poke {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 30%;
+  margin: 15px;
+}
+
+.Infos {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Infos p {
+  margin: 6px;
+}
