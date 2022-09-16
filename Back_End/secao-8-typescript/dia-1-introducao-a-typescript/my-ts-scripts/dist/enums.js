@@ -1,0 +1,55 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.yearSeasons = exports.yearMonths = void 0;
+var yearMonths;
+(function (yearMonths) {
+    yearMonths["January"] = "January";
+    yearMonths["Febuary"] = "Febuary";
+    yearMonths["March"] = "March";
+    yearMonths["April"] = "April";
+    yearMonths["May"] = "May";
+    yearMonths["June"] = "June";
+    yearMonths["July"] = "July";
+    yearMonths["August"] = "August";
+    yearMonths["September"] = "September";
+    yearMonths["October"] = "October";
+    yearMonths["November"] = "November";
+    yearMonths["December"] = "December";
+})(yearMonths = exports.yearMonths || (exports.yearMonths = {}));
+var yearSeasons;
+(function (yearSeasons) {
+    yearSeasons["Spring"] = "Spring";
+    yearSeasons["Summer"] = "Summer";
+    yearSeasons["Fall"] = "Fall";
+    yearSeasons["Winter"] = "Winter";
+})(yearSeasons = exports.yearSeasons || (exports.yearSeasons = {}));
+var Norte;
+(function (Norte) {
+    Norte["January"] = "Winter";
+    Norte["Febuary"] = "Winter";
+    Norte["March"] = "Winter, Spring";
+    Norte["April"] = "Spring";
+    Norte["May"] = "Spring";
+    Norte["June"] = "Spring, Summer";
+    Norte["July"] = "Summer";
+    Norte["August"] = "Summer";
+    Norte["September"] = "Summer, Fall";
+    Norte["October"] = "Fall";
+    Norte["November"] = "Fall";
+    Norte["December"] = "Fall, Winter";
+})(Norte || (Norte = {}));
+var Sul;
+(function (Sul) {
+    Sul["January"] = "Summer";
+    Sul["Febuary"] = "Summer";
+    Sul["March"] = "Summer, Fall";
+    Sul["April"] = "Fall";
+    Sul["May"] = "Fall";
+    Sul["June"] = "Fall, Winter";
+    Sul["July"] = "Winter";
+    Sul["August"] = "Winter";
+    Sul["September"] = "Winter, Spring";
+    Sul["October"] = "Spring";
+    Sul["November"] = "Spring";
+    Sul["December"] = "Spring, Summer";
+})(Sul || (Sul = {}));
